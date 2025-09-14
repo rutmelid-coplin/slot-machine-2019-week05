@@ -1,10 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <title>Slot Machine</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fashion Slot Machine</title>
+  <link rel="stylesheet"
+    href="slotMachine.css">
 </head>
+
 <body>
-    <h1>Welcome to the Slot Machine!</h1>
+  <div>
+    <div class="slotMachineText">
+      <h1>Fashion Slot Machine</h1>
+      <h2 class="result-message" id="resultMessage">Place a bet</h2>
+    </div>
+
+    <div class="slotMachine">
+      <div class="reel" id="reel1">
+        <div class="emojiContainer" id="emojiContainer1">
+          <!-- emojis are repeated twice to create a loop effect -->
+          <div class="emoji">👠</div>
+          <div class="emoji">👑</div>
+          <div class="emoji">💄</div>
+          <div class="emoji">💍</div>
+          <div class="emoji">🩰</div>
+          <div class="emoji">👠</div>
+          <div class="emoji">👑</div>
+          <div class="emoji">💄</div>
+          <div class="emoji">💍</div>
+          <div class="emoji">🩰</div>
+        </div>
+      </div>
+      <div class="reel" id="reel2">
+        <div class="emojiContainer" id="emojiContainer2">
+          <div class="emoji">👠</div>
+          <div class="emoji">👑</div>
+          <div class="emoji">💄</div>
+          <div class="emoji">💍</div>
+          <div class="emoji">🩰</div>
+          <div class="emoji">👠</div>
+          <div class="emoji">👑</div>
+          <div class="emoji">💄</div>
+          <div class="emoji">💍</div>
+          <div class="emoji">🩰</div>
+        </div>
+      </div>
+      <div class="reel" id="reel3">
+        <div class="emojiContainer" id="emojiContainer3">
+          <div class="emoji">👠</div>
+          <div class="emoji">👑</div>
+          <div class="emoji">💄</div>
+          <div class="emoji">💍</div>
+          <div class="emoji">🩰</div>
+          <div class="emoji">👠</div>
+          <div class="emoji">👑</div>
+          <div class="emoji">💄</div>
+          <div class="emoji">💍</div>
+          <div class="emoji">🩰</div>
+        </div>
+      </div>
+    </div>
+    <div class="betContainer">
+      <button class="betButton" id="bet10">Bet 10</button>
+      <button class="betButton" id="bet100">Bet 100</button>
+      <input class="betInput" type="text" readonly id="balance" value="1000">
+    </div>
+  </div>
+  <script src="slotmachine.js"></script>
 </body>
+
 </html>
