@@ -1,0 +1,90 @@
+body {
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-image: url("https://www.vecteezy.com/vector-art/11879880-gold-3d-casino-dice-in-yellow-scene-on-blurred-background");
+    font-family: "Arial", sans-serif;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+.resultMessage {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    text-align: center;
+    font-size: 24px;
+    color: red;
+}
+
+.slotMachine {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 500px;
+    height: 500px;
+    background-color: gold;
+    border-radius: 15px;
+    margin: auto;
+    position: relative;
+    padding: 20px;
+}
+
+.reel {
+    width: 150px;
+    height: 100%;
+    overflow: hidden;
+    border-radius: 50px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.emojiContainer {
+    position: absolute;
+    top: 0;
+}
+
+.emoji {
+    width: 100%;
+    height: 100px;
+    font-size: 75px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.betContainer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.betButton {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(252, 119, 141);
+    color: black;
+    cursor: pointer;
+}
+
+.betButton:hover {
+    background-color: rgb(233, 11, 48);
+}
+
+.betInput {
+    margin: 10px;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid pink;
+    border-radius: 5px;
+    width: 100px;
+    text-align: center;
+}
